@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,600&display=swap" rel="stylesheet" />
+    <title>Aviasales</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-logo _container">
+            <a href=""><img src="img/Logo.svg" alt=""></a>
+        </header>
+        <div class="flex-column__start-center _container">
+            <div class="filters">
+                <form class="filter__stops" action="#" method="post" enctype="multipart/form-data">
+                    <p class="filter__title">Количество пересадок</p>
+                    <label class="check">
+                        <input class="check__input" type="checkbox">Без пересадок
+                        <span class="check__box"></span>
+                    </label>
+                    <label class="check">
+                        <input class="check__input" type="checkbox">1 пересадка
+                        <span class="check__box"></span>
+                    </label>
+                    <label class="check">
+                        <input class="check__input" type="checkbox">2 пересадки
+                        <span class="check__box"></span>
+                    </label>
+                    <label class="check">
+                        <input class="check__input" type="checkbox">3 пересадки
+                        <span class="check__box"></span>
+                    </label>
+                </form>
+                <form class="filter__company">
+                    <p class="filter__title">Компания</p>
+                    <label class="radio">
+                        <input class="radio__input" type="radio">Все
+                        <span class="radio__box"></span>
+                    </label>
+                    <label class="radio">
+                        <input class="radio__input" type="radio">S7 Airlines
+                        <span class="radio__box"></span>
+                    </label>
+                    <label class="radio">
+                        <input class="radio__input" type="radio">XiamenAir
+                        <span class="radio__box"></span>
+                    </label>               
+                </form>
+            </div>
+            <div class="results">
+                <div class="results__buttons">
+                    <button class="active-result-button">самый быстрый</button>
+                    <button >самый дешевый</button>
+                    <button>оптимальный</button>
+                </div>
+                <div class="results__container">
+                    <div class="results__card">
+                        <div class="card__head">
+                            <div class="card__price">13400</div>
+                            <div class="card__logo">
+                                <img src="img/S7 Logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card__foot">
+                            <div class="card__route">
+                                <div class="card__title">mov-hkt</div>
+                                <div class="card__time">10:45 - 08:00</div>
+                            </div>
+                            <div class="card__length">
+                                <div class="card__title">в пути</div>
+                                <div class="card__time">21ч 15м</div>
+                            </div>
+                            <div class="card__stops">
+                                <div class="card__title">без пересадок</div>
+                                <div class="stops_cities"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="results__card">
+                        <div class="card__head">
+                            <div class="card__price">13400</div>
+                            <div class="card__logo">
+                                <img src="img/S7 Logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card__foot">
+                            <div class="card__route">
+                                <div class="card__title">mov-hkt</div>
+                                <div class="card__time">10:45 - 08:00</div>
+                            </div>
+                            <div class="card__length">
+                                <div class="card__title">в пути</div>
+                                <div class="card__time">21ч 15м</div>
+                            </div>
+                            <div class="card__stops">
+                                <div class="card__title">без пересадок</div>
+                                <div class="stops_cities"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="results__card">
+                        <div class="card__head">
+                            <div class="card__price">13400</div>
+                            <div class="card__logo">
+                                <img src="img/S7 Logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card__foot">
+                            <div class="card__route">
+                                <div class="card__title">mov-hkt</div>
+                                <div class="card__time">10:45 - 08:00</div>
+                            </div>
+                            <div class="card__length">
+                                <div class="card__title">в пути</div>
+                                <div class="card__time">21ч 15м</div>
+                            </div>
+                            <div class="card__stops">
+                                <div class="card__title">без пересадок</div>
+                                <div class="stops_cities"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="results__card">
+                        <div class="card__head">
+                            <div class="card__price">13400</div>
+                            <div class="card__logo">
+                                <img src="img/S7 Logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card__foot">
+                            <div class="card__route">
+                                <div class="card__title">mov-hkt</div>
+                                <div class="card__time">10:45 - 08:00</div>
+                            </div>
+                            <div class="card__length">
+                                <div class="card__title">в пути</div>
+                                <div class="card__time">21ч 15м</div>
+                            </div>
+                            <div class="card__stops">
+                                <div class="card__title">без пересадок</div>
+                                <div class="stops_cities"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showmore__button">
+                    <button class="show">показать еще</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
