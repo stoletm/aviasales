@@ -101,11 +101,11 @@ a:hover {
     margin-left: -120px;
     width: 20px;
     height: 20px;
-    background: url(/icons/Check-off.svg);
+    background: url(../icons/Check-off.svg);
 }
 
-.check__input:checked + .check__box{
-    background: url(/icons/Check-on.svg);
+.check__input:checked + .check__box {
+    background: url(../icons/Check-on.svg);
 }
 
 .radio {
@@ -127,14 +127,14 @@ a:hover {
 
 .radio__box {
     position: absolute;
-    margin-left: -52px;
-    width: 20px;
-    height: 20px;
-    background: url(/icons/Radio-off.svg);
+    margin-left: -54px;
+    width: 22px;
+    height: 22px;
+    background: url(../icons/Radio-off.svg);
 }
 
-.radio__input:checked{
-    background: url(/icons/Radio-on);
+.radio__input:checked  {
+    background: url(../icons/Radio-on);
 }
 
 .results {
@@ -146,7 +146,7 @@ a:hover {
     justify-content: space-between;
 }
 
-.results__buttons button{
+.results__buttons button {
     flex: auto;
     padding: 15px;
     font-weight: 600;
@@ -208,15 +208,11 @@ a:hover {
     color: #2196F3;
 }
 
-.card__logo {}
-
 .card__foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.card__route {}
 
 .card__title {
     font-weight: 600;
