@@ -32,6 +32,10 @@ a:hover {
      text-decoration: none;
 }
 
+label {
+    cursor: pointer;
+}
+
 /* Style */
 
 .header-logo {
@@ -105,6 +109,10 @@ a:hover {
     display: block;
 }
 
+.check-hover, .radio-hover {
+    transition: all .5s ease;
+}
+
 .check-hover:hover, .radio-hover:hover {
     transition: all .5s ease;
     background: #F1FCFF;
@@ -171,6 +179,11 @@ a:hover {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: all .5s ease;
+    border: 1px solid rgb(214, 214, 214)
+}
+
+.results__buttons button:hover {
+    cursor: pointer;
 }
 
 .results__buttons button:first-child {
@@ -194,18 +207,20 @@ a:hover {
 }
 
 .results__card {
+    transition: all .5 ease;
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin: 20px 0;
     background: #FFF;
     border-radius: 5px;
-    transition: all .5 ease;
 }
 
 .results__card:hover {
-    background: #eef7fa;
     transition: all .5 ease;
+    background: #eef7fa;
+    border: 1px solid #c1e5f1;
+    padding: 19px;
 }
 
 .card__head {
@@ -217,6 +232,7 @@ a:hover {
 .card__price {
     font-weight: 600;
     font-size: 24px;
+    margin-bottom: 20px;
     line-height: 24px;
     color: #2196F3;
 }
@@ -248,6 +264,7 @@ a:hover {
 
 .show {
     min-width: 100%;
+    cursor: pointer;
     height: 50px;
     color: #fff;
     background: #2196F3;
