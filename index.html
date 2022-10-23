@@ -13,41 +13,70 @@
         <header class="header-logo _container">
             <a href=""><img src="img/Logo.svg" alt=""></a>
         </header>
-        <div class="flex-column__start-center _container">
+        <div class="searchbar _container">
+            <input type="text" placeholder="Откуда" class="search__text">
+            <input type="text" placeholder="Куда" class="search__text">
+            <input type="text" placeholder="Когда" class="search__calendar">
+            <input type="text" placeholder="Обратно" class="search__calendar">
+            <input type="date" name="" id="" class="calendar">
+            <input type="date" name="" id="" class="opened calendar">  
+        </div>
+        <main class="flex-column__start-center _container">
             <div class="filters">
                 <form class="filter__stops" action="#" method="post" enctype="multipart/form-data">
                     <p class="filter__title">Количество пересадок</p>
-                    <label class="check">
-                        <input class="check__input" type="checkbox">Без пересадок
-                        <span class="check__box"></span>
-                    </label>
-                    <label class="check">
-                        <input class="check__input" type="checkbox">1 пересадка
-                        <span class="check__box"></span>
-                    </label>
-                    <label class="check">
-                        <input class="check__input" type="checkbox">2 пересадки
-                        <span class="check__box"></span>
-                    </label>
-                    <label class="check">
-                        <input class="check__input" type="checkbox">3 пересадки
-                        <span class="check__box"></span>
-                    </label>
+                    <div class="check-hover">
+                        <label class="check">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            Без пересадок
+                        </label>
+                    </div>
+                    <div class="check-hover">
+                        <label class="check">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            1 пересадка
+                        </label>
+                    </div>
+                    <div class="check-hover">
+                        <label class="check">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            2 пересадки
+                        </label>
+                    </div>
+                    <div class="check-hover">
+                        <label class="check">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            3 пересадки
+                        </label>
+                    </div>
                 </form>
                 <form class="filter__company">
                     <p class="filter__title">Компания</p>
-                    <label class="radio">
-                        <input class="radio__input" type="radio">Все
-                        <span class="radio__box"></span>
-                    </label>
-                    <label class="radio">
-                        <input class="radio__input" type="radio">S7 Airlines
-                        <span class="radio__box"></span>
-                    </label>
-                    <label class="radio">
-                        <input class="radio__input" type="radio">XiamenAir
-                        <span class="radio__box"></span>
-                    </label>               
+                    <div class="radio-hover">
+                        <label class="radio">
+                            <input class="radio__input" type="radio" name="radio">
+                            <span class="radio__box"></span>
+                            <!-- Все -->
+                        </label>
+                    </div>
+                    <div class="radio-hover">
+                        <label class="radio">
+                            <input class="radio__input" type="radio" name="radio">
+                            <span class="radio__box"></span>
+                            <!-- S7 Airlines -->
+                        </label>
+                    </div>
+                    <div class="radio-hover">
+                        <label class="radio">
+                            <input class="radio__input" type="radio" name="radio">
+                            <span class="radio__box"></span>
+                            <!-- XiamenAir -->
+                        </label>   
+                    </div>            
                 </form>
             </div>
             <div class="results">
@@ -150,8 +179,9 @@
                     <button class="show">показать еще</button>
                 </div>
             </div>
-        </div>
+        </main>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
